@@ -1,0 +1,32 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+/*    border-width: 2px;
+    border-style: dotted; */
+
+    /* border shorhand 3 properties included size,style,color */
+    border: 2px dotted gray;
+    border-color: rgb(223, 221, 219);
+    border-radius: 50%;
+    margin: 100px;
+}
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 12px;
+
+}
+.padding{
+    padding-left: 25px;
+    background-color: violet;
+    height: 200px;
+    width:300px;
+    border: 2px darkblue double dotted ;
+    border-radius: 0%;
+    
+}
