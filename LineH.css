@@ -1,0 +1,24 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: brown;
+}
+#two{
+    line-height: 50px;
+   
+
+}
+#one{
+    text-transform: uppercase;
+}
+#cap{
+    text-transform: capitalize;
+    text-align: center;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

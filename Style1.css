@@ -1,0 +1,27 @@
+/* universal Selector */
+*{
+    color: brown;
+   
+    font-family: sans-serif;
+}
+/* Element Selector */
+h1{
+    color: rgb(56, 61, 61);
+}
+/* idselector */
+#headingone{
+    color: #d21c1c;
+}
+#headingtwo{
+    color: #d38b8b;
+}
+/* class selector */
+.myclass{
+    color: red;
+}
+#box{
+    background-color: blue;
+}
+button{
+ background-color: green;
+}
