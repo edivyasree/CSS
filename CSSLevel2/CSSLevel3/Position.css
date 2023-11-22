@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px dotted red;
+    background-color: aquamarine;
+    display: inline-block;
+}
+#box1{
+    position: static;/*default elements are static*/
+    top:50px;
+    bottom: 50px;/*it will not work with static method*/
+}
+#box2{
+    position: relative;
+    top:50px;
+    left: 20px;
+    bottom: 50px;/*it will  work with relative method top 50px and bottom also fixed*/
+}
+#box3{
+    position: absolute;
+    top:500px;
+    left: 20px;
+}
+#box4{
+    position: fixed;
+right: 10px;
+    bottom: 0;
+    width: 100vw;
+
+}
+#box5{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 25px;
+    
+}
+#box6{
+    top:0;
+    position: sticky;
+
+}
