@@ -1,0 +1,25 @@
+#box1{
+    height:100px;
+    width: 200px;
+    background-color: yellowgreen;
+    font-size: 10px;
+   
+    background-size: cover;
+}
+#box2{
+    height: 50px;
+width: 30%;
+background-color: blue;
+margin-left: 10%;
+font-size: 2em;/*2 times of parent size*/
+/* width: 5em;5 times of font-size */
+width:5rem;/*5*16=80px*=>root  element font size is fixed like body and html*/ 
+}
+#box3{
+    height: 50vh;/*Screen height or browser  height*/
+    width: 30%;
+background-color: rgb(255, 0, 8);
+margin-left: 10%;
+font-size: 2em;
+background-image: url("./images/th.jpg");
+}
